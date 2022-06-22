@@ -1,0 +1,23 @@
+{
+  "name": "shopify-gatsby-test-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "shopify-gatsby-test-site",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.17.0",
+    "gatsby-plugin-image": "^2.17.0",
+    "gatsby-source-shopify": "^7.6.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
