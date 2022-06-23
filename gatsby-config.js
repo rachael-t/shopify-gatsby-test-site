@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Shopify Gatsby Test Site`,
@@ -6,8 +8,8 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-shopify',
     options: {
-      "shopName": "",
-      "accessToken": ""
+      "storeUrl": process.env.GATSBY_SHOPIFY_STORE_URL,
+      "password": process.env.SHOPIFY_SHOP_PASSWORD
     }
   }]
 };
